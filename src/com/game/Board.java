@@ -74,7 +74,13 @@ public class Board {
         shape = shapes.get(glShapeCurrentIndex);
         timer = new Timer();
 
-        if (event.getCode() == KeyCode.R) {   // для движения по траэктории
+        if (event.getCode() == KeyCode.R) {// для движения по траэктории
+
+            List<KeyCode> events = shape.getTrajectory();
+            if (events.isEmpty() || events.size() == 0) {
+                return;
+            }
+
             if (shape instanceof Figure) {
                 for (Shape s : shape.getMargeShapes()) {
                     s.setX(s.getStartingCoordinates()[0]);
@@ -85,12 +91,11 @@ public class Board {
                 shape.setY(shape.getStartingCoordinates()[1]);
             }
 
-            List<KeyCode> events = shape.getTrajectory();
 
             TimerTask task = new TimerTask() {
                 @Override
                 public void run() {
-                    if (!events.isEmpty() && count != events.size()) {
+                    if (count != events.size()) {
                         shape.move(events.get(count));
                         clear();
                         draw();

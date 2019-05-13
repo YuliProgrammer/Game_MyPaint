@@ -2,7 +2,7 @@
   {
     "type": "Circle",
     "index": 0,
-    "x": 30.0,
+    "x": 135.0,
     "y": 80.0,
     "diameter": 30.0,
     "shapeWay": [
@@ -48,13 +48,40 @@
   {
     "type": "Triangle",
     "index": 2,
-    "x": 70.0,
-    "y": 40.0,
+    "x": 275.0,
+    "y": 75.0,
     "diameter": 30.0,
-    "shapeWay": [],
+    "shapeWay": [
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT"
+    ],
     "startingCoordinates": [
-      0.0,
-      0.0
+      145.0,
+      75.0
     ]
   },
   {
@@ -218,6 +245,18 @@
       "DOWN",
       "DOWN"
     ],
+    "startingCoordinates": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "type": "Triangle",
+    "index": 4,
+    "x": 70.0,
+    "y": 40.0,
+    "diameter": 30.0,
+    "shapeWay": [],
     "startingCoordinates": [
       0.0,
       0.0

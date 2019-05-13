@@ -45,6 +45,7 @@ public abstract class MovingShape implements Shape {
 
             currentShape = shapes.get(Board.glShapeCurrentIndex);
             currentShape.setColor(false);
+
             if (Board.glShapeCurrentIndex < shapes.size() - 1) {
                 Board.glShapeCurrentIndex++;
             } else {
@@ -73,16 +74,17 @@ public abstract class MovingShape implements Shape {
         }
 
         if (isRecordWay) {
-            if (isTheSameCurrentShape) {
-                if (eventCode != KeyCode.W) {
-                    shapeWay.add(eventCode);
-                }
+            if (isTheSameCurrentShape && eventCode != KeyCode.W) {
+                shapeWay.add(eventCode);
             }
         } else if (!isRecordWay && !shapeWay.isEmpty()) {
             currentShape.setTrajectory(shapeWay);
             shapeWay = new ArrayList<>();
         }
 
+        if (eventCode == KeyCode.TAB) {
+            return;
+        }
         if (currentShape instanceof Figure) {
 
             if (eventCode == KeyCode.C || eventCode == KeyCode.DELETE ||
