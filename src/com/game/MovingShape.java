@@ -37,6 +37,12 @@ public abstract class MovingShape implements Shape {
 
         if (eventCode == KeyCode.TAB) {
             isTheSameCurrentShape = false;
+
+            if (isRecordWay && !shapeWay.isEmpty()) {
+                currentShape.setTrajectory(shapeWay);
+                shapeWay = new ArrayList<>();
+            }
+
             currentShape = shapes.get(Board.glShapeCurrentIndex);
             currentShape.setColor(false);
             if (Board.glShapeCurrentIndex < shapes.size() - 1) {
@@ -71,9 +77,6 @@ public abstract class MovingShape implements Shape {
                 if (eventCode != KeyCode.W) {
                     shapeWay.add(eventCode);
                 }
-            } else {
-                currentShape.setTrajectory(shapeWay);
-                shapeWay = new ArrayList<>();
             }
         } else if (!isRecordWay && !shapeWay.isEmpty()) {
             currentShape.setTrajectory(shapeWay);
