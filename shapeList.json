@@ -1,0 +1,226 @@
+[
+  {
+    "type": "Circle",
+    "index": 0,
+    "x": 135.0,
+    "y": 80.0,
+    "diameter": 30.0,
+    "shapeWay": [
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT"
+    ],
+    "startingCoordinates": [
+      30.0,
+      80.0
+    ]
+  },
+  {
+    "type": "Square",
+    "index": 1,
+    "x": 5.0,
+    "y": 40.0,
+    "diameter": 30.0,
+    "shapeWay": [],
+    "startingCoordinates": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "type": "Triangle",
+    "index": 2,
+    "x": 70.0,
+    "y": 40.0,
+    "diameter": 30.0,
+    "shapeWay": [],
+    "startingCoordinates": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "type": "Figure",
+    "index": 3,
+    "x": 10.0,
+    "y": 40.0,
+    "diameter": 30.0,
+    "margeShapes": [
+      {
+        "type": "Triangle",
+        "index": 3,
+        "x": 400.0,
+        "y": 335.0,
+        "diameter": 31.0,
+        "shapeWay": [],
+        "startingCoordinates": [
+          175.0,
+          165.0
+        ]
+      },
+      {
+        "type": "Square",
+        "index": 3,
+        "x": 385.0,
+        "y": 370.0,
+        "diameter": 30.0,
+        "shapeWay": [],
+        "startingCoordinates": [
+          160.0,
+          200.0
+        ]
+      },
+      {
+        "type": "Triangle",
+        "index": 3,
+        "x": 380.0,
+        "y": 390.0,
+        "diameter": 14.0,
+        "shapeWay": [],
+        "startingCoordinates": [
+          155.0,
+          220.0
+        ]
+      },
+      {
+        "type": "Triangle",
+        "index": 3,
+        "x": 370.0,
+        "y": 390.0,
+        "diameter": 14.0,
+        "shapeWay": [],
+        "startingCoordinates": [
+          145.0,
+          220.0
+        ]
+      },
+      {
+        "type": "Triangle",
+        "index": 3,
+        "x": 430.0,
+        "y": 390.0,
+        "diameter": 14.0,
+        "shapeWay": [],
+        "startingCoordinates": [
+          205.0,
+          220.0
+        ]
+      },
+      {
+        "type": "Triangle",
+        "index": 3,
+        "x": 420.0,
+        "y": 390.0,
+        "diameter": 14.0,
+        "shapeWay": [],
+        "startingCoordinates": [
+          195.0,
+          220.0
+        ]
+      }
+    ],
+    "shapeWay": [
+      "DOWN",
+      "DOWN",
+      "DOWN",
+      "DOWN",
+      "DOWN",
+      "DOWN",
+      "DOWN",
+      "DOWN",
+      "DOWN",
+      "DOWN",
+      "DOWN",
+      "DOWN",
+      "DOWN",
+      "DOWN",
+      "DOWN",
+      "DOWN",
+      "DOWN",
+      "DOWN",
+      "DOWN",
+      "DOWN",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT",
+      "DOWN",
+      "DOWN",
+      "DOWN",
+      "DOWN",
+      "DOWN",
+      "DOWN",
+      "DOWN",
+      "DOWN",
+      "DOWN",
+      "DOWN",
+      "DOWN",
+      "DOWN",
+      "DOWN",
+      "DOWN"
+    ],
+    "startingCoordinates": [
+      0.0,
+      0.0
+    ]
+  }
+]
